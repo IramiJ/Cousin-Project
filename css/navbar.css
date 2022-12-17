@@ -1,20 +1,32 @@
 #navbar {
-  background-color: #369cb3;
+  background-color: #7cc3d8;
   overflow: hidden;
-  font-size: 17px;
+  font-size: 1vw;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  width: 100%;
 }
 
-/* Style the links inside the navigation bar */
-#navbar p {
-  float: left;
-  color: #f2f2f2;
-  padding: 15px 15px;
-}
-
-/* Change the color of links on hover */
-#navbar p:hover {
-  /*background-color: #50cae6;*/
+#navbar a:hover {
   color: black;
   cursor: pointer;
+}
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  user-select: none;
+}
+.sticky {
+  top: 0;
+  position: fixed;
+}
+.sticky + #content {
+  padding-top: 60px;
 }

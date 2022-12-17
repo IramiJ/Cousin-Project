@@ -1,6 +1,43 @@
 @import "navbar.css";
+@import "ttt.css";
+@import "slider.css";
+@import "copyright.css";
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Franklin Gothic Small", "Arial Narrow", Arial, sans-serif;
-  background-color: #81cdde;
-  color: white;
+  font-size: 1.15vw;
+  background-color: #53a6be;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 15%;
+  height: 15%;
+}
+
+#header {
+  font-size: 40px;
+  text-align: center;
+  width: 100vw;
+  height: 500px;
+  background-color: #afe0ee;
+  user-select: none;
+}
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

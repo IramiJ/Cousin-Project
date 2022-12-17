@@ -1,0 +1,26 @@
+footer {
+  background-color: #3489a1;
+  font-size: 0.8vw;
+}
+footer #copyright {
+  text-align: center;
+}
+
+#kontaktformular {
+  height: 100%;
+  flex: 1 1 auto;
+  margin: 0 auto;
+  display: block;
+}
+#kontaktformular input {
+  display: block;
+  width: 25vw;
+  height: 2vw;
+  left: 88vw;
+}
+#kontaktformular #nachricht {
+  height: 5vw;
+}
+#kontaktformular #submit {
+  text-align: left;
+}
