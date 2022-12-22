@@ -24,3 +24,14 @@ footer #copyright {
 #kontaktformular #submit {
   text-align: left;
 }
+input {
+  background-color: #84bbdb;
+  border-width: 1px;
+}
+#submit {
+  background-color: #6da2c2;
+  border-width: 1px;
+}
+#submit:hover {
+  background-color: #3489a1;
+}
