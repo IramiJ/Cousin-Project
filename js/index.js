@@ -1,13 +1,13 @@
 //sticky effect
 window.onscroll = function () {
-  myFunction();
+  addSticky();
 };
 
 var navbar = document.getElementById("navbar");
 
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function addSticky() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
   } else {
